@@ -1,0 +1,42 @@
+
+
+.Main {
+    width: 235px;
+    height: 1080px;
+    background-color: #ffffff;
+  }
+  .Header-1 {
+    width: 1920px;
+    height: 91px;
+    background-color: #ffffff;
+  
+
+  }
+  .Menu ul li {
+      display: inline-block;
+      color: #707070;
+      margin-left: 50px;
+      width: 230px;
+      height: 40px;
+      text-align: left;
+    
+  }
+.Menu ul li a {
+    color: #707070;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI';
+    padding: 20px;
+    
+  
+
+}
+.Linha {
+    width: 1920px;
+    height: 1.3px;
+    border: solid 1px #c6c4c4;
+    background-color: #707070;
+  }
+  
+
