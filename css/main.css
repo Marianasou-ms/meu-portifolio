@@ -1,42 +1,148 @@
 
 
-.Main {
-    width: 235px;
-    height: 1080px;
-    background-color: #ffffff;
-  }
-  .Header-1 {
-    width: 1920px;
-    height: 91px;
-    background-color: #ffffff;
-  
+body{
+font-family: 'Segoe UI';
+font-size: 20px;
+margin:0;
 
-  }
-  .Menu ul li {
-      display: inline-block;
-      color: #707070;
-      margin-left: 50px;
-      width: 230px;
-      height: 40px;
-      text-align: left;
-    
-  }
-.Menu ul li a {
-    color: #707070;
+
+}
+body a{
+color:#707070 ;
+
+}
+
+header{
+    overflow: hidden;
+    padding: 35px;
+    position: fixed;
+    background-color: white;
+    width: 1920px;
+    height: auto;
+    top:0;
+    box-shadow: 0px 0px 1px  #707070;
+    justify-content: center;
+    transition: 0.7s;
+}
+
+header nav {
+    width:100%;
+    display: inline;
+
+
+
+  
+   
+
+}
+
+header nav a{
+    color: black;
     text-decoration: none;
-    font-size: 22px;
-    text-transform: capitalize;
-    font-family: 'Segoe UI';
-    padding: 20px;
+    margin-left: 69px;
+    text-transform: lowercase;
+    float: auto;
+    transform: scaleX(0);
+    transform-origin: right;
     
+
+    
+    
+}
+
+header nav a:hover{
+    color: #2cc178;
+    border-bottom: 5px solid #2cc178;
+
+}
+
+.header nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    
+}
+    
+.hero{
+    background-color:whitesmoke;
+    padding-bottom: 583px ;
+    padding-top: 200px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url("../imagem/light.jpg");
+    width: 100%;
+    background-position: center center;
+    margin: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 2000px;
+
   
 
 }
-.Linha {
-    width: 1920px;
-    height: 1.3px;
-    border: solid 1px #c6c4c4;
-    background-color: #707070;
-  }
-  
+.hero div{
+    max-width: 584px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 300px;
+    padding-right: 150px;
+    float: left;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 20px;
+    
+    
+    
 
+    
+
+   
+    
+}
+
+.hero2 div{
+    max-width: 584px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 500px;
+    padding-right: 20px;
+    float: right;
+    position: relative;
+
+}
+  
+.secondpage{
+    background-color:#2cc178;
+    height: 100vh;
+
+}
+
+.secondpage p{
+    margin:0;
+}
+
+.thirdpage{
+    background-color:white;
+    height: 100vh;
+
+
+}
+.thirdpage p{
+    margin:0;
+}
+.fourthpage{
+    background-color:#2cc178;
+    height: 100vh;
+
+
+}
+.fourthpage p{
+    margin:0;
+}
+.sobremim{
+    font-size: 90px;
+}
+
+.logomari{
+    margin-top: 0px;
+
+}
