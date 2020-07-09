@@ -1,58 +1,46 @@
-
-
 body{
-font-family: 'Segoe UI';
-font-size: 20px;
-margin:0;
+    font-family: 'Biryani', sans-serif;
+    margin:0;
 
-
-}
-body a{
-color:#707070 ;
+    
 
 }
 
-header{
+header nav{
     overflow: hidden;
-    padding: 35px;
+    padding: 15px;
     position: fixed;
     background-color: white;
-    width: 1920px;
-    height: auto;
-    top:0;
-    box-shadow: 0px 0px 1px  #707070;
+    width: 100%;
+    box-shadow: 1px 0px 0px  #707070;
     justify-content: center;
     transition: 0.7s;
-}
+    top:0px;
+    left: 0px;
+    z-index: 100;
 
-header nav {
-    width:100%;
-    display: inline;
-
-
-
-  
-   
-
+ 
 }
 
 header nav a{
     color: black;
     text-decoration: none;
-    margin-left: 69px;
+    margin-left: 60px;
     text-transform: lowercase;
-    float: auto;
     transform: scaleX(0);
     transform-origin: right;
-    
+    font-size: 12px;
 
-    
+   
+  
     
 }
 
 header nav a:hover{
     color: #2cc178;
-    border-bottom: 5px solid #2cc178;
+    border-bottom: 3px solid #2cc178;
+    padding-bottom: 15px;
+    text-decoration: none;
 
 }
 
@@ -60,64 +48,122 @@ header nav a:hover{
     transform: scaleX(1);
     transform-origin: left;
     
+
 }
-    
-.hero{
-    background-color:whitesmoke;
-    padding-bottom: 583px ;
-    padding-top: 200px;
+
+header nav .mariana:hover{
+  text-decoration: none;
+  
+
+}
+
+.firstpage{
+    background-color:#F7F7F7;
+    padding-top: 0px;
     height: 100vh;
     box-sizing: border-box;
-    background-image: url("../imagem/light.jpg");
-    width: 100%;
-    background-position: center center;
-    margin: auto;
+    background-image: url("../imagem/Web\ 1920\ –\ 26@2x.jpg");
     background-repeat: no-repeat;
     text-align: center;
-    background-size: 2000px;
+    background-attachment: fixed;
+    background-size: 1540px;
+    
 
   
-
-}
-.hero div{
-    max-width: 584px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 300px;
-    padding-right: 150px;
-    float: left;
-    text-align: left;
-    margin-top: 50px;
-    font-size: 20px;
-    
-    
-    
-
-    
-
-   
-    
 }
 
-.hero2 div{
-    max-width: 584px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 500px;
-    padding-right: 20px;
-    float: right;
-    position: relative;
-
-}
-  
 .secondpage{
     background-color:#2cc178;
     height: 100vh;
-
 }
 
 .secondpage p{
     margin:0;
+}
+
+
+.textofoco{
+  position: absolute;
+  right: 0;
+  top: 105%;
+  color: white;
+  width: 600px;
+  padding-right: 400px;
+  font-size: 15px;
+
+}
+
+
+.textotrabalho{
+  position: absolute;
+  right: 0;
+  top: 128%;
+  color: white;
+  width: 600px;
+  padding-right: 400px;
+  font-size: 15px;
+
+}
+
+.textodatadriven{
+  position: absolute;
+  right: 0;
+  top: 155%;
+  color: white;
+  width: 600px;
+  padding-right: 400px;
+  font-size: 15px;
+   
+
+}
+
+.textoplat{
+  position: absolute;
+  right: 0;
+  top: 175%;
+  color: white;
+  width: 600px;
+  padding-right: 400px;
+  font-size: 15px;
+   
+
+}
+
+
+.imguser{
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-top: 30px;
+
+
+}
+
+.tramp{
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-top: 30px;
+  
+  
+
+
+}
+
+.dat{
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-top: 30px;
+
+}
+
+.plat{
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-top: 30px;
+
 }
 
 .thirdpage{
@@ -130,19 +176,289 @@ header nav a:hover{
     margin:0;
 }
 .fourthpage{
-    background-color:#2cc178;
+    background-color:white;
     height: 100vh;
+  
 
 
 }
 .fourthpage p{
     margin:0;
-}
-.sobremim{
-    font-size: 90px;
+  
+
 }
 
-.logomari{
-    margin-top: 0px;
+.fifthpage{
+  background-image: url("../imagem/vamostomar.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: 1540px;
+}
 
+.fifthpage p{
+  margin:0;
+}
+
+
+
+.gree{
+    color: #2cc178;
+}
+
+.mariana:hover{
+color: #2cc178;
+text-decoration:line-through;
+text-transform: uppercase;
+}
+
+
+.subtitle {
+
+	font-family: $fontstack_heading;
+	font-weight:300;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:1em;
+  margin:0.5em 0;
+
+}
+
+.heading-group {
+  margin:0 0 3em 0;
+}
+  
+  .content h3 {
+    font-size: 1.2em;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    color: #2cc178;
+  }
+
+  .timeline-list {
+
+    border-left: 4px solid #2cc178;
+    padding-bottom: 1em;
+    position: relative;
+    max-width:600px;
+    margin:0 auto;
+    padding: 0;
+  }
+   
+  .timeline-list li {
+  margin:0 0 5em 0;
+    padding:0 3em 0em 3em;
+      position: relative;
+  
+  }
+  .timeline-list li:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -1.45em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none repeat scroll 0% 0% #2cc178;
+    border: 5px solid #fff;
+    
+  }
+
+  .lista5{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -1.45em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none repeat scroll 0% 0% #2cc178;
+    border: 5px solid #fff;
+   
+
+  }
+.quintoandar{
+  padding-bottom: 10em;
+  position: relative;
+  width:900px;
+  margin:0 auto;
+  padding: 0;
+  padding-left: 65px;
+
+}
+
+.textoquintoandar{
+  padding-left: 65px;
+  width:900px;
+
+}
+
+
+}
+
+.mari{
+  position: absolute;
+  right: 0;
+  color:black;
+  width: 600px;
+  padding-right: 200px;
+  font-size: 15px;
+
+}
+
+.bt1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  display: inline;
+
+}
+.bt2{
+  display: flex;
+  flex-direction: column;
+  display:inline;
+  text-align: center;
+}
+.bt3{
+  display: flex;
+  flex-direction: column;
+}
+.bt4{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.bolhas{
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+  position: absolute;
+  padding-top: 50em;
+  
+
+}
+
+.textobolhas{
+  position: absolute;
+  right: 0;
+  top: 284%;
+  width: 600px;
+  padding-right: 320px;
+  font-size: 12px;
+}
+
+.textoelatech{
+  position: absolute;
+  right: 0;
+  top: 305%;
+  width: 600px;
+  padding-right: 320px;
+  font-size: 12px;
+}
+
+.textoappsesc{
+  position: absolute;
+  right: 0;
+  top: 330%;
+  width: 600px;
+  padding-right: 320px;
+  font-size: 12px;
+}
+
+.textoportifolio{
+  position: absolute;
+  right: 0;
+  top: 348%;
+  width: 600px;
+  padding-right: 320px;
+  font-size: 12px;
+}
+
+.button{
+  background-color: #2cc178;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 2px;
+  transition-duration: 0.4s;
+ 
+  
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+
+
+/*links*/
+
+.tituloelatech{
+  font-size: 90px;
+  padding-left: 200px;
+  line-height: 2em;
+  
+}
+
+.linha{
+  color: #2cc178;
+  line-height: 15px;
+  padding-left: 200px;
+}
+
+.contexto{
+  color: #2cc178;
+  line-height: 5px;
+  padding-left: 200px;
+}
+
+.paragrafocontexto{
+  padding-left: 200px;
+
+}
+
+.editorialdesign{
+  padding-left: 200px;
+  
+
+}
+
+.metodologia{
+  padding-left: 200px;
+  line-height: 0px;
+  color: #2cc178;
+
+}
+.ferramentas{
+  padding-left: 200px;
+  line-height: 0px;
+  color: #2cc178;
+
+}
+.data{
+  padding-left: 200px;
+  line-height: 0px;
+  color: #2cc178;
+}
+
+.elatech2{
+  background-color: white;
+  height: 100vh;
+  box-sizing: border-box;
+  background-size: 1835px;
+  font-size: 60px;
+  padding-left:2em;
+  padding-top: 1em;
+  color: white;
+
+}
+
+.elatech2 p{
+  margin:0;
 }
